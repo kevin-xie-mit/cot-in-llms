@@ -32,7 +32,7 @@ class Processor:
                     'subject': xxx_mention.attrib['subject'],
                     'historyOf': xxx_mention.attrib['historyOf']
                 }
-                
+
         # maps entity xmi (unique XML identifier) to the more fine-grained information about the entity
         return entity_dict
     
